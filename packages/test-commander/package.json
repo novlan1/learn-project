@@ -1,0 +1,21 @@
+{
+  "name": "test-commander",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^5.0.0",
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "postcss": "^8.4.5",
+    "semver": "^7.3.5"
+  },
+  "dependencies": {
+    "ansicolors": "^0.3.2",
+    "ansistyles": "^0.1.3"
+  }
+}
