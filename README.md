@@ -7,7 +7,10 @@
 
 ```bash
 ─ packages                       
-    ├─ learn-nextjs               # Next.js学习项目
-    ├─ func-line-cli              # 获取源代码所在文件/行的脚手架
-    └─ v-func-line                # VuePress插件，为文档增加指向源代码链接
+    ├─ learn-nextjs                            # Next.js学习项目
+    ├─ learn-typescript                        # Typescript学习项目
+    ├─ webpack-tree-shaking-demo               # Webpack tree-shaking测试项目
+    ├─ wx-miniprogram-blink                    # 微信小程序学习项目
+    ├─ rookie-react-component-library          # React组件库
+    └─ nodejs-koa2-wxapp                       # Node.js + Koa2实战小程序项目
 ```
