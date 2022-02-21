@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>外联JS文件只会阻塞后面的资源的下载和呈现</title>
+</head>
+
+<body>
+  <div style="color: red">
+    第一部分
+  </div>
+  <!-- <script src="/js/sleep3000-empty.js"></script> -->
+  <!-- 或者 -->
+  <script src="/js/block.js"></script>
+  <div>
+    第二部分
+  </div>
+</body>
+
+</html>

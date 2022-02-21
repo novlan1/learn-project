@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <title>测试JS下载是否阻塞DOM解析2</title>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+      background: lightgreen;
+    }
+  </style>
+</head>
+
+<body>
+  <div></div>
+  <script src="/js/sleep3000-logDiv.js"></script>
+  <style>
+    div {
+      background: lightgrey;
+    }
+  </style>
+  <script src="/js/sleep4000-logDiv.js"></script>
+  <link rel="stylesheet" href="/css/common.css">
+
+</body>
+
+</html>

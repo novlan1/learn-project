@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <title>测试CSS是否阻塞DOM解析</title>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+      background: lightgreen;
+    }
+  </style>
+  <link rel="stylesheet" href="/css/sleep3000-common.css">
+  <script defer src="/js/logDiv.js"></script>
+</head>
+
+<body>
+  <div></div>
+</body>
+
+</html>

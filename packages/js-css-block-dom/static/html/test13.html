@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS的阻塞</title>
+</head>
+
+<body>
+  <div style="color: red">
+    第一部分
+  </div>
+
+  <script>
+    setTimeout(() => {
+      const div = document.querySelectorAll('div')
+      console.log(div.length)
+    }, 1000)
+  </script>
+
+  <link rel="stylesheet" href="/css/sleep3000-common.css">
+  <div>
+    第二部分
+  </div>
+</body>
+
+</html>
