@@ -11,6 +11,7 @@
     ├─ electron-cloud-doc                      # Electron学习项目
     ├─ js-css-block-dom                        # 测试JS和CSS是否阻塞DOM的渲染
     ├─ learn-nextjs                            # Next.js学习项目
+    ├─ learn-threejs                           # three.js学习项目
     ├─ learn-typescript                        # Typescript学习项目
     ├─ nginx-load-balance-demo                 # Nginx 负载均衡测试项目
     ├─ nodejs-koa2-wxapp                       # Node.js + Koa2实战小程序项目
